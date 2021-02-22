@@ -28,3 +28,16 @@
  *   c. The tests are CASE sensitive, so you MUST console.log('Good Night!') with
  *      the exact case.
  */
+var t = new Date();
+var time = t.getHours();{
+
+if (time < 12) {
+  document.write("<b>Good morning!</b>");
+}
+ else if (time > 12) {
+  document.write("<b>Good afternoon!<b>");
+}
+else (time === 12) {
+  document.writer("<b>Good evening!<b>");
+ }
+  }
